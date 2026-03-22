@@ -1,0 +1,7 @@
+request,label
+GET /home,0
+GET /login?user=admin,0
+GET /product?id=5,0
+GET /login?user=admin' OR '1'='1,1
+POST /search?q=<script>alert(1)</script>,1
+GET product?id=10 OR 1=1,1
